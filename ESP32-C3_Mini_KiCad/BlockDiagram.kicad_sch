@@ -1,0 +1,931 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9a234a3d-b523-4083-aafd-da4d092abf2c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Graphic:SYM_Arrow_XLarge"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#SYM"
+				(at 0 2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SYM_Arrow_XLarge"
+				(at 0 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Filled arrow, 400mil"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "symbol arrow"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SYM_Arrow_XLarge_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 -1.016) (xy 1.27 1.016) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 116.84 86.36)
+		(end 166.37 123.19)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "010e13fb-6dce-4f5a-b366-4d557ef6028b")
+	)
+	(rectangle
+		(start 40.64 82.55)
+		(end 77.47 105.41)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "086a5587-20af-4996-ad5e-b4a4505dcd56")
+	)
+	(rectangle
+		(start 217.17 93.98)
+		(end 254 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3931d715-4282-403a-8c4e-ca7db6670f04")
+	)
+	(rectangle
+		(start 124.46 147.32)
+		(end 161.29 170.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "68b6957f-02d0-4d5f-9d87-e3aa0e0c673f")
+	)
+	(rectangle
+		(start 34.29 26.67)
+		(end 71.12 49.53)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "aeeb3add-b224-4a31-a5cd-c3df8e8125a2")
+	)
+	(rectangle
+		(start 40.64 111.76)
+		(end 77.47 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c442c360-c822-436a-9442-98ad345b82d6")
+	)
+	(rectangle
+		(start 121.92 27.94)
+		(end 158.75 50.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e315e1ea-29b4-47e7-a592-6e4dd8466fa8")
+	)
+	(text "GPIO8"
+		(exclude_from_sim no)
+		(at 93.98 91.44 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "06042f6a-471b-4ee8-85de-bebd139323ea")
+	)
+	(text "Protection Circuit - 5V"
+		(exclude_from_sim no)
+		(at 96.52 35.56 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "1c13773c-11ab-439b-81e1-7a4364815b62")
+	)
+	(text "GPIOs/JTAG/UART"
+		(exclude_from_sim no)
+		(at 190.5 100.33 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "387e84b3-70de-41a0-9e3e-1996ed2c37b4")
+	)
+	(text "RST BTN\n\n\n"
+		(exclude_from_sim no)
+		(at 58.42 125.73 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "494747a8-81d0-4c81-8b78-a991b0116873")
+	)
+	(text "USB-C Connector\n"
+		(exclude_from_sim no)
+		(at 52.07 38.1 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "624ea093-221c-478e-a160-829f8fbab0a9")
+	)
+	(text "Pin Headers\n"
+		(exclude_from_sim no)
+		(at 234.95 105.41 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "64fea37b-6e46-4cbf-9287-16f47ba05e20")
+	)
+	(text "CRYSTAL OSCILLATOR\n32.768 kHz"
+		(exclude_from_sim no)
+		(at 142.24 158.75 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "6f2dd11a-2a98-4f6e-b3da-6dcce49442b8")
+	)
+	(text "3V3\n"
+		(exclude_from_sim no)
+		(at 144.78 67.31 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "71da6233-2cc3-48b9-83aa-cb6f83954d72")
+	)
+	(text "BOOT BTN\n"
+		(exclude_from_sim no)
+		(at 58.42 93.98 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "8df9e6c1-34ca-4c06-bacc-17b72f6b2176")
+	)
+	(text "EN"
+		(exclude_from_sim no)
+		(at 93.98 116.84 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "aa6b8e50-bcee-45f7-9e57-e7a78978d6a0")
+	)
+	(text "ESP-32-Mini\nWroom-02\n"
+		(exclude_from_sim no)
+		(at 139.7 102.87 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "bc84844b-1ff8-4d5f-97a7-841cab0c784b")
+	)
+	(text "LDO\n"
+		(exclude_from_sim no)
+		(at 139.7 39.37 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "c9bef22e-6696-4691-884f-c4a6da5d39e0")
+	)
+	(bus
+		(pts
+			(xy 139.7 54.61) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0387280c-27b9-41c1-949b-b60f489932ee")
+	)
+	(bus
+		(pts
+			(xy 78.74 39.37) (xy 104.14 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415a94d0-7570-4f5a-aeab-bead2ae8df4b")
+	)
+	(bus
+		(pts
+			(xy 78.74 119.38) (xy 105.41 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae633dc3-fc3d-485e-8bbc-97aa3ae09cdd")
+	)
+	(bus
+		(pts
+			(xy 173.99 102.87) (xy 207.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa99d9e-a07d-4305-95d9-b7923596e6f4")
+	)
+	(bus
+		(pts
+			(xy 78.74 93.98) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6f7709-0cfb-4153-aeaa-4034227f4466")
+	)
+	(bus
+		(pts
+			(xy 142.24 137.16) (xy 142.24 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e657acee-5d0e-47d6-a5c4-640f35147e0b")
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_XLarge")
+		(at 139.7 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19a0ec85-289b-4d92-9aa0-19c06b29caa3")
+		(property "Reference" "#SYM2"
+			(at 141.986 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYM_Arrow_XLarge"
+			(at 137.668 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Filled arrow, 400mil"
+			(at 139.7 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESP32-C3-Mini"
+				(path "/3e5fad6f-9282-4392-83b7-cfa277e3c0be/f5808c81-b8aa-4c81-aab0-fd0a4bff02d8"
+					(reference "#SYM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_XLarge")
+		(at 175.26 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b7cba4f-121b-4460-95f3-9f6775f4dfa4")
+		(property "Reference" "#SYM7"
+			(at 175.26 105.156 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYM_Arrow_XLarge"
+			(at 175.26 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Filled arrow, 400mil"
+			(at 175.26 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESP32-C3-Mini"
+				(path "/3e5fad6f-9282-4392-83b7-cfa277e3c0be/f5808c81-b8aa-4c81-aab0-fd0a4bff02d8"
+					(reference "#SYM7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_XLarge")
+		(at 205.74 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d00bd6e-2729-4719-b039-c4591754656d")
+		(property "Reference" "#SYM6"
+			(at 205.74 100.584 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYM_Arrow_XLarge"
+			(at 205.74 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Filled arrow, 400mil"
+			(at 205.74 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESP32-C3-Mini"
+				(path "/3e5fad6f-9282-4392-83b7-cfa277e3c0be/f5808c81-b8aa-4c81-aab0-fd0a4bff02d8"
+					(reference "#SYM6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_XLarge")
+		(at 110.49 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37048912-6d4c-417b-8271-0c304fb54016")
+		(property "Reference" "#SYM3"
+			(at 110.49 91.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYM_Arrow_XLarge"
+			(at 110.49 96.012 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Filled arrow, 400mil"
+			(at 110.49 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESP32-C3-Mini"
+				(path "/3e5fad6f-9282-4392-83b7-cfa277e3c0be/f5808c81-b8aa-4c81-aab0-fd0a4bff02d8"
+					(reference "#SYM3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_XLarge")
+		(at 110.49 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75b6a6f3-be0d-4968-acce-ca379410841c")
+		(property "Reference" "#SYM4"
+			(at 110.49 117.094 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYM_Arrow_XLarge"
+			(at 110.49 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Filled arrow, 400mil"
+			(at 110.49 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESP32-C3-Mini"
+				(path "/3e5fad6f-9282-4392-83b7-cfa277e3c0be/f5808c81-b8aa-4c81-aab0-fd0a4bff02d8"
+					(reference "#SYM4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_XLarge")
+		(at 109.22 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aec1e562-7d7a-4a80-9f04-d3769ce627dc")
+		(property "Reference" "#SYM1"
+			(at 109.22 37.084 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYM_Arrow_XLarge"
+			(at 109.22 41.402 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Filled arrow, 400mil"
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESP32-C3-Mini"
+				(path "/3e5fad6f-9282-4392-83b7-cfa277e3c0be/f5808c81-b8aa-4c81-aab0-fd0a4bff02d8"
+					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_XLarge")
+		(at 142.24 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dff0d81b-46c9-4a93-b74b-a185b6a85a40")
+		(property "Reference" "#SYM5"
+			(at 139.954 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYM_Arrow_XLarge"
+			(at 144.272 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Filled arrow, 400mil"
+			(at 142.24 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESP32-C3-Mini"
+				(path "/3e5fad6f-9282-4392-83b7-cfa277e3c0be/f5808c81-b8aa-4c81-aab0-fd0a4bff02d8"
+					(reference "#SYM5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

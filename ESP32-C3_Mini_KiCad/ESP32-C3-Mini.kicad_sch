@@ -1,0 +1,111 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3e5fad6f-9282-4392-83b7-cfa277e3c0be")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 113.03 35.56)
+		(size 50.8 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "96a0d6ba-7633-4957-8289-03a0d43fe1c1")
+		(property "Sheetname" "ESP32-C3-Mini"
+			(at 113.03 33.4834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.375)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32C3Mini.kicad_sch"
+			(at 112.522 71.628 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.375)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-C3-Mini"
+				(path "/3e5fad6f-9282-4392-83b7-cfa277e3c0be"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 35.56)
+		(size 54.61 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f5808c81-b8aa-4c81-aab0-fd0a4bff02d8")
+		(property "Sheetname" "Block Diagram"
+			(at 24.13 33.9834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BlockDiagram.kicad_sch"
+			(at 24.13 72.3966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-C3-Mini"
+				(path "/3e5fad6f-9282-4392-83b7-cfa277e3c0be"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
