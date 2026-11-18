@@ -10,7 +10,7 @@ KiCad 9 ESP32-C3 Mini PCB Design | Full Schematic Walkthrough] from https://www.
 It uses a hierarchical schematic structure to separate the system block diagram from the detailed power, microcontroller, and I/O circuitry.
 
 ## Hardware Specifications
- **Microcontroller:** `ESP32-C3-WROOM-02` (integrates Wi-Fi, flash memory, RF components, and an internal 40 MHz system crystal)
+* **Microcontroller:** `ESP32-C3-WROOM-02` (integrates Wi-Fi, flash memory, RF components, and an internal 40 MHz system crystal)
 * **USB-C Input & Protection:** 
   * 16-pin USB 2.0 Type-C receptacle configured as a 5V power sink using `5.1 kΩ` pull-down resistors on `CC1` and `CC2`
   * Native USB 2.0 differential data lines (`IO18` / `IO19`) protected by a `USBLC6` low-capacitance ESD protection array
